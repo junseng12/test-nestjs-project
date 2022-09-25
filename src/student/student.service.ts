@@ -6,9 +6,13 @@ import { StudentRepository } from './student.repository';
 export class StudentService {
   constructor(private studentRepository: StudentRepository) {}
 
-  getAllStudent(): any[] {
-    return this.studentRepository.studentTable;
+  getAllStudent(id): string {
+    return "hello";
   }
+
+  // getAllStudent(): any[] {
+  //   return this.studentRepository.studentTable;
+  // }
 
   createStudent(name: string, studentId: string): string {
     const newData = { name: name, studentId: studentId };
