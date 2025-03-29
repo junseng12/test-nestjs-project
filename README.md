@@ -33,12 +33,13 @@ This project is a simple RESTful API built with [NestJS](https://nestjs.com/), d
 
 ```bash
 npm install
-
+```
 
 ### Running the Server
 
 ```bash
 npm run start:dev
+```
 
 Server will start on: http://localhost:3000
 
