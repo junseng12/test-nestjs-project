@@ -1,20 +1,22 @@
 # Main Directory Structure
 
+```
 test-nestjs-project/
 ├── package.json
 ├── tsconfig.json
 ├── nest-cli.json
-├── src/
+├── src/                           # Main source code
 │   ├── main.ts
 │   ├── app.module.ts
 │   ├── app.controller.ts
-│   ├── student/
+│   ├── student/                   # Student module for CRUD API
 │   │   ├── student.controller.ts
 │   │   ├── student.module.ts
 │   │   ├── student.service.ts
 │   │   └── student.repository.ts
 └── test/
     └── app.e2e-spec.ts
+```
 
 # NestJS Student API Project
 
